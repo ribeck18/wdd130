@@ -6,3 +6,19 @@ nav{
     background-color: steelblue;
     padding: 10px;
 }
+
+footer{
+    background-color: steelblue;
+    padding: 32;
+    
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+}
+
+p{
+    color: green;
+    font-size: 20px;
+}

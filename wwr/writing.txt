@@ -1,0 +1,12 @@
+The purpose of the website is to increase guided rafting trip bookings from families and youth groups. The site should establish trust with parents and youth leaders so that they will book with Ralph. the site should create an easy way for users to research specific trips and book said trips. 
+
+
+
+The target audience for the website is parents, youth leaders, and group organizers (ages ~25–55) who are planning activities for family events or church groups. They are typically budget-conscious but willing to invest in safe and memorable experiences. They are looking for budget friendly fun adventure that their entire group can enjoy together. They are looking for clear information about pricing, age requirements, and group logistics. They also want the website to feel inviting and friendly rather than intemidating or extreme. Generally the audiance will access the website on their phone, but many will likely use the desktop when actually booking. 
+
+
+
+--turquoise-surf: #38a4c3ff;
+--light-blue: #b7e2eeff;
+--spicy-paprika: #ef5722ff;
+--golden-pollen: #ffc857ff;
