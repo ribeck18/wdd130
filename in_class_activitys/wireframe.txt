@@ -1,0 +1,29 @@
+Header 
+    img
+    nav 
+
+main 
+    div - Generic container - ID: #image-scroller
+        several images 
+    
+    div - ID: product-gallery
+        section - class: .product
+            image - of product  
+            h2 heading
+            paragraph - product description 
+
+            repeat x8
+
+Footer
+    div - Class: .footer-info
+        h2 heading 
+        paragraph
+    
+    repeat x3
+
+    div - Class .social-media
+        h2 
+        image 
+        image
+        image
+
