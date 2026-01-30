@@ -1,0 +1,109 @@
+
+/* Entire Page */
+*{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+/* Head of page */
+header{
+    background-color: #38a4c3ff;
+}
+/* logo */
+#logo-image{
+    max-width: 90px;
+    height: auto;
+    border-radius: 50%;
+}
+/* Navigation bar */
+nav a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #b7e2eeff;
+    color: black;
+}
+
+
+/* Body of page */
+body{
+    background-color: #FFF8E7;
+}
+/* Hero Section */
+#hero-msg h1{
+    text-align: center;
+    color: black;
+}
+#hero-msg h4{
+    text-align: center;
+    color: black;
+}
+#hero-img{
+    width: 100%;
+}
+/* Image card Area */
+main section{
+    text-align: center;
+}
+#background{
+    height:725px;
+    background-color: #ef5722ff;
+}
+.home-grid{
+    color: black;
+}
+.button-box{
+    text-align: center;
+    background-color: #ffc857ff;
+    color: black;
+    text-decoration: none;
+}
+.button-box:hover{
+    background-color: #b7e2eeff;
+    color: black;
+    text-decoration: none;
+}
+.icon{
+    width: 80px;
+}
+/* Large image and message */
+.msg{
+    background-color: #ffc857ff;
+    color: black;
+}
+
+
+/* Footer of page */
+footer{
+    background-color: #38a4c3ff;
+    color:black;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer a:hover{
+    color: black;
+    background-color: #b7e2eeff;
+    text-decoration: underline;
+}
+footer p{
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+/* I have no clue what this is  */
+.join{
+    background-color: #b7e2eeff;
+}
+.join:hover{
+    background-color: #38a4c3ff;
+}
