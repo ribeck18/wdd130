@@ -142,3 +142,17 @@ footer p{
 .socials{
     padding-top: 15px;
 }
+
+
+
+
+
+
+
+/* I have no clue what this is  */
+.join{
+    background-color: #b7e2eeff;
+}
+.join:hover{
+    background-color: #38a4c3ff;
+}
