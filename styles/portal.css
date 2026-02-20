@@ -1,4 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 img{
     height: 150px;
-    width: auto;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 8px 24px;
+    background: #efefef;
+    border-bottom: 1px solid #cfcfcf;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  
+    
+}
+
+.logo img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    display: block;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: #222;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+nav a:hover{
+    color: gray;
+    font-size: 15px;
+}
+
+/* Main Section */
+
+/* Hero session */
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#hero-msg{
+grid-column: 1/2;
+}
+
+#hero img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    align-self: center;
+    justify-self: center;
+
+    width: 75%;
+    height: auto;
+
+    border-radius: 25px;
+}
+
+/* Hero Message section */
+#hero-msg{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#hero-msg div{ 
+    justify-self: center;
+    text-align: center;
+
+    margin-top: 5em;
+    margin-bottom: 0;
+}
+#hero-msg div h1{
+    margin-bottom: 0;
+    font: "Oswald";
+}
+#hero-msg div h3{
+    margin-top: 0;
+    font-family: "Montserrat";
+}
+#hero-msg-2 button{
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+    height: 50%;
+    width: 75%;
+    border-radius: 15px;
+
+    justify-self: center;
+    align-self: center;
+}
+#hero-msg-2 h4{
+    font: "Montserrat";
+    justify-self: center;
+    margin-top: 0;
+}
+
+

@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: gray;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 400;
+}
+main {
+    display: grid;
+    grid-template-columns: .1fr .1fr 1fr .1fr;
+    margin-top: 20px;
+}
+hr {
+    width: 100%;
+    grid-column: 1 / 5;
+}
+h2 {
+    grid-column: 2/3;
+}
+
+/* Chili */
+
+#blue {
+    background: blue;
+    grid-column: 1 / 2;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#white {
+    background: white;
+    grid-column: 2 / 4;
+}
+
+#red {
+    background: red;
+    grid-column: 1 / 4;
+}
+
+#chile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 200px;
+    width: 300px;
+}
+
+.star {
+    width: 70px;
+    aspect-ratio: 1;
+    background: white;
+    clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
+}
+
+
+/* Denmark */
+#denmark{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+
+    background-color: white;
+
+    height: 200px;
+    width: 300px;
+}
+
+#dred1{
+    background-color: #ff0000;
+}
+#dred2{  
+    background-color: #ff0000;
+}
+#dred3{
+    background-color: #ff0000;
+}
+#dred4{
+    background-color: #ff0000;
+}
+
+/* Finland */
+#finland{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 50px;
+
+    background-color: #0000ff;
+
+    height: 200px;
+    width: 300px; 
+}
+
+#fwhite1{
+    background-color: #ffffff;
+}
+#fwhite2{
+    background-color: #ffffff;
+}
+#fwhite3{
+    background-color: #ffffff;
+}
+#fwhite4{
+    background-color: #ffffff;
+}
+
+
+/* Benin Flag */
+#benin{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+
+    height: 200px;
+    width: 300px; 
+}
+
+#bgreen{
+    background-color: green;
+
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+#byellow{
+    background-color: yellow;
+}
+#bred{
+    background-color: red;
+}
+
+/* Italy Flag */
+#italy{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    height: 200px;
+    width: 300px; 
+}
+
+#igreen{
+    background-color: #009445;
+}
+#iwhite{
+    background-color: #ffffff;
+}
+#ired{
+    background-color: #cf2635;
+}
+
+/* C.A.R Flag */
+#car{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    height: 200px;
+    width: 300px; 
+}
+
+#carblue{
+    background-color: blue;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+#carred{
+    background-color: red;
+    grid-column: 2/3;
+    grid-row: 1/5;
+    z-index: 10000;
+}#carwhite{
+    background-color: white;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+#cargreen{
+    background-color: green;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+#caryellow{
+    background-color: yellow;
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+#carstar{
+    background-color: yellow;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 10000;
+
+    clip-path: 0 50% ;
+}
