@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-img{
-    height: 150px;
-}
-
+/* TODO: 
+    Fix hero button
+*/
 body {
     margin: 0;
     padding: 0;
+
+    background-color: #dad9da;
 }
 
 
@@ -16,7 +17,7 @@ header {
     align-items: center;
     gap: 24px;
     padding: 8px 24px;
-    background: #efefef;
+    background: #3c6e71;
     border-bottom: 1px solid #cfcfcf;
 
     position: fixed;
@@ -42,13 +43,13 @@ nav {
 }
 
 nav a {
-    color: #222;
+    color: #dad9da;
     text-decoration: none;
     font-size: 12px;
 }
 
 nav a:hover{
-    color: gray;
+    color: white;
     font-size: 15px;
 }
 
@@ -58,6 +59,14 @@ nav a:hover{
 #hero{
     display: grid;
     grid-template-columns: 1fr 2fr;
+
+    margin: 5em auto;
+    background-color: #dad9da;
+    width: 100%;
+
+    border-bottom: 2px solid #353536;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .18);
 }
 
 #hero-msg{
@@ -75,6 +84,9 @@ grid-column: 1/2;
     height: auto;
 
     border-radius: 25px;
+
+    margin: 1em;
+    padding: 2em;
 }
 
 /* Hero Message section */
@@ -115,4 +127,296 @@ grid-column: 1/2;
     margin-top: 0;
 }
 
+/* CARDS */
 
+.card-title{
+    font: "Oswald";
+}
+
+.card-text{
+    font: "Montserrat";
+}
+
+#cards{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #dad9da;
+
+    margin: 5em;
+}
+#edu-card{
+    background-color: #51766e;
+    border: 3px solid #353536;
+    color: #dad9da;
+
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.10);
+
+
+    margin: auto 1em;
+    padding: 1em;
+    width: 33%;
+    height: 500px;
+    padding: 1em;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    border-radius: 35px;
+}
+#work-card{
+    background-color: #51766e;
+    border: 3px solid #353536;
+    color: #dad9da;
+
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.10);
+
+
+    margin: auto 1em;
+    padding: 1em;
+    width: 33%;
+    height: 500px;
+    padding: 1em;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    border-radius: 35px;
+}
+#hobbies-card{
+    background-color: #51766e;
+    border: 3px solid #353536;
+    color: #dad9da;
+
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.10);
+
+    margin: auto 1em;
+    padding: 1em;
+    width: 33%;
+    height: 500px;
+    padding: 1em;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    border-radius: 35px;
+}
+.card-tite{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+#edu-card img{
+    
+    width: 50%;
+    height: auto;
+}
+/* #work-card img{
+    
+} */
+#hobbies-card img{
+    border-radius: 25px;
+    width: 50%;
+    height:auto;
+}
+
+/* Education Section */
+#education{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    justify-items: center;
+
+    border-top: 2px solid #353536;
+    border-bottom: 2px solid #353536;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, .18);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .18);
+
+    padding-bottom: 5em;
+    padding-top: 2em;
+}
+#education-slide{
+    display: flex;
+
+    justify-content: center;
+}
+.college{
+    background-color: #294b63;
+    border: 2px solid #353536;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.10);
+    color: #dad9da;
+    
+    padding: 1em;
+
+    width: 40%;
+    height: 80%;
+    margin: 1em;
+
+    text-align: center;;
+}
+.high-school{
+    background-color: #294b63;
+    border: 3px solid #353536;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.10);
+    color: #dad9da;
+    
+    padding: 1em;
+
+    width: 40%;
+    margin: 1em;
+
+    text-align: center;;
+}
+#education-slide img{
+    margin: 1em;
+    border-radius: 25px;
+
+    height: auto;
+    width: 300px;
+
+    justify-self: center;
+    align-self: center;
+}
+
+/* Work Experince section */
+#work{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    justify-items: center;
+
+    border-bottom: 2px solid #353536;
+}
+#work h1{ 
+    text-align: center;
+}
+
+#work-slide{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+#job-list{
+    display: block;
+    align-self: center;
+    margin: 0;
+    padding-left: 0;
+    list-style: disc;
+    list-style-position: outside;
+    row-gap: 2px;
+
+    width: 33%;
+    margin: 1em;
+}
+#job-list li{
+    margin: 0;
+    padding: 0;
+}
+#job-list h5{
+    margin: 1em;
+    line-height: 1.1;
+}
+
+#work-slide p{
+    width: 33%;
+    margin: 1em;
+    padding: 1em;
+
+    text-align: center;
+
+    background-color: #51766e;
+    border: 3px solid #353536;
+    border-radius: 15px;
+    color: #dad9da;
+
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.10);
+}
+#work-slide img{
+    width: 33%;
+    margin: 1em;
+
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* About me Section */
+#about-me{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+
+    border-bottom: 2px solid #353536;
+}
+
+#about-me h1{
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+
+
+
+}
+
+#about-images img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+    justify-self: center;
+    align-self: center;
+
+    border-radius: 5px;
+
+    height: 150px;
+    width: auto;
+
+    margin: 2em;
+}
+
+#about-me p{
+    grid-column: 2/3;
+    grid-row: 1/3;
+
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+
+    background-color: #294b63;
+    border: 3px solid #353536;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.10);
+    color: #dad9da;
+
+    padding: 1em;
+    margin: 2em;
+}
+
+
+.gallery-window {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 2rem) / 3); /* 3 visible + 2 gaps */
+  gap: 1rem;
+
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.gallery-item {
+  margin: 0;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;       /* choose your size */
+  object-fit: cover;
+  border-radius: 12px;
+}
