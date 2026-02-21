@@ -3,57 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riley Beck -- Portal Page</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>Riley Beck Portal</title>
+    <link rel="stylesheet" href="styles/portal.css">
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <nav>
-           <a href="wwr/index.html">White Water Rafting Website</a>
-           <a href="wwr/site-plan-rafting.html">White Water Rafting Site Plan</a>
-           <a href="ice/ice.html">Ice</a>
-           <a href="about-me.html">About Me</a>
-           <a href="site-plan.html">Portal Page Site Plan</a>
+        <div class="logo"><img src="images/my-logo.png" alt="My Logo"></div>
+        <nav id="nav">
+            <a href="#">Home</a>
+            <a href="#">WWR</a>
+            <a href="#">ICE</a>
+            <a href="#">About Me</a>
         </nav>
     </header>
 
-    <!-- Main body of the page - this is in grid format -->
     <main>
-        <section id="blue">
-            <h2>My Content</h2>
-            <img src="images/rileybike.jpeg" alt="Man on a motorcycle wearing a helmet" width="500">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est veniam vitae odio quas provident obcaecati sint, pariatur rem repellat! Enim illum quae alias, voluptatum beatae voluptatem odio quo quam facere.</p>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div id="hero-msg">
+                <div id="hero-msg-1">
+                    <h1 class="name">Riley Beck</h1>
+                    <h3>Computer Science Student</h3>
+                </div>
+                <div id="hero-msg-2">
+                    <h4>Software & AI</h4>
+                    <button>About Me</button>
+                </div>
+                
+            </div>
+          
+            
+
+            <img src="images/riley-hero-image.jpeg" alt="Photo of Me" id="hero-img">
         </section>
 
-        <section id="about">
-            <h2>
-                Riley Beck Portal Page
-            </h2>
-            <img src="images/liz_riley.jpeg" alt="" width="500">
-            <p>My name is Riley Beck, and I am a sophomore studying Computer Science at BYU Idaho. I am currently taking a web development class to fulfill requirements for my major. So far, I have found it very intriguing and would be interested in exploring the topic further. </p>
-            <p>I was raised in Idaho and have taken full advantage of the outdoor adventures in the surrounding area. I love to ride dirt bikes and snowmachines with my dad and brothers, and I’m always up for a cross-country Harley ride! </p>
-            <p>	In the future, I would love to continue pursuing computer science, and it would be a dream come true to work on motorcycles on the side! </p>
+        <!-- Cards Section -->
+        <section id="cards">
+            <div id="edu-card">
+                <h2 class="card-title">Education</h2>
+                <p class="card-text">I graduated from Skyline High School in 2021 and then served a two-year mission for The Church of Jesus Christ of Latter-day Saints, where I developed discipline, leadership, and strong interpersonal skills. In 2024, I began studying Psychology at BYU–Idaho but soon felt drawn to building solutions rather than only studying behavior. I transitioned into Computer Science to turn ideas into functional systems. I am now finishing my sophomore year, developing skills in programming, software design, and problem-solving while creating practical, real-world projects.</p>
+                <img src="images/Brigham_Young_University–Idaho_medallion.svg.png" alt="Education Image">
+            </div>
+
+            <div id="work-card">
+                <h2 class="card-title">Work Experince</h2>
+                <p class="card-text">In high school, I worked in landscaping and as a handyman, developing a strong work ethic and hands-on problem-solving skills. I then served a two-year mission for The Church of Jesus Christ of Latter-day Saints, where I strengthened my leadership, communication, and conflict-resolution abilities. For the past two years, I have worked as a Project Engineer for an excavation company, supporting coordination, planning, documentation, and field operations. These experiences have sharpened my ability to manage projects, collaborate across teams, and turn plans into real-world results, all driven by a desire to build and improve systems.</p>
+                <img src="#" alt="Work Image">
+            </div>
+
+            <div id="hobbies-card">
+                <h2 class="card-title">Hobbies</h2>
+                <p class="card-text">Outside of school and work, I love riding motorcycles, spending time outdoors, and being around the people who matter most to me. Whether it’s a ride with friends, working on bikes in the garage, a weekend adventure, or just hanging out and laughing together, I value experiences that bring energy and connection into life. I believe in working hard, but I also believe in living fully and making the most of every season.</p>
+                <img src="images/father-son.jpeg" alt="Hobbies Image">
+            </div>
         </section>
+
+        <!-- Education Section -->
+         <section id="education">
+            <h1>Education</h1>
+            <div id="education-slide">
+                <div class="college">
+                    <h3>Brigham Young University</h1>
+                    <p>During my time at BYU–Idaho, I have studied both Psychology and Computer Science, which has given me a unique perspective on how people think and how systems are built. My background in psychology strengthened my understanding of human behavior, communication, and decision-making, while computer science has allowed me to apply that understanding in practical, technical ways. I currently serve as a mentor in the Heber J. Grant Mentorship Program, where I support and guide fellow students in their academic and personal development. Through this role, I have continued developing leadership skills, learning how to encourage growth in others, and reinforcing my belief that meaningful progress happens when strong systems and strong people work together.</p>
+                </div>
+                <img src="images/grad.jpeg" alt="Education Page Image">
+                <div class="high-school">
+                    <h3>Skyline Senior High School</h1>
+                    <p>During my time at Skyline High School, I developed a love for writing and a genuine excitement for learning. I discovered that I enjoyed not just completing assignments, but understanding ideas deeply and expressing them clearly. High school was where I first realized that growth comes from curiosity and consistent effort. That excitement for learning has continued to shape my academic path and personal development.</p>
+                </div>
+            </div>
+         </section>
+
+         <!-- Work Section -->
+          <section id="work">
+            <h1>Work Experince</h1>
+            <section id="work-slide">
+                <ul id="job-list">
+                    <li><h5>Yard Butler - Landscaping</h5></li>
+                    <li><h5>Construction Handy Man</h5></li>
+                    <li><h5>Phenix Construction - Project Engineer</h5></li>
+                </ul>
+                <p>My work experience has shaped both my technical abilities and my leadership mindset. During high school, I worked in landscaping and as a handyman, where I learned the value of discipline, physical endurance, and practical problem-solving. Those roles taught me how to take ownership of tasks, adapt when things didn’t go as planned, and deliver quality work consistently. After high school, I served a two-year mission for The Church of Jesus Christ of Latter-day Saints, where I developed strong leadership and interpersonal skills. I worked closely with diverse individuals, led teams, resolved conflicts, and learned how to navigate challenges between people with patience and clarity. For the past two years, I have worked as a Project Engineer for an excavation company, where I assist with project planning, coordination, documentation, and communication between field crews and management. This role requires attention to detail, proactive problem-solving, and the ability to manage multiple moving parts simultaneously. Across each stage of my work experience, I have grown from hands-on labor to leadership and project coordination, building both the technical and people skills necessary to contribute effectively in complex environments.</p>
+                <img src="#" alt="Work Experince image">
+            </section>
             
-        <section id="red">
-             <h2>My Content</h2>
-            <img src="images/rileybike.jpeg" alt="Man on a motorcycle wearing a helmet" width="500">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est veniam vitae odio quas provident obcaecati sint, pariatur rem repellat! Enim illum quae alias, voluptatum beatae voluptatem odio quo quam facere.</p>
-        </section>
-        
-        <section id="green">
-             <h2>My Content</h2>
-            <img src="images/rileybike.jpeg" alt="Man on a motorcycle wearing a helmet" width="500">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est veniam vitae odio quas provident obcaecati sint, pariatur rem repellat! Enim illum quae alias, voluptatum beatae voluptatem odio quo quam facere.</p>
-        </section>
+          </section>
+
+        <!-- About me section -->
+         <section id="about-me">
+            <h1>About Me</h1>
+            <div id="about-images">
+                <!-- <img src="images/rileybike.jpeg" alt="about image">
+                <img src="images/jason-riley-nd.jpeg" alt="about image"> -->
+                <img src="images/beck-family.jpeg" alt="about image">
+            </div>
+            <p>I was born and raised in Southeast Idaho, where I grew up with two brothers and three sisters and spent much of my time in the mountains riding snowmobiles and dirt bikes. That environment shaped my love for the outdoors, adventure, and hands-on experiences. Today, I still enjoy anything with two wheels — especially street motorcycles — along with a good movie and time well spent with the people I care about. I am a follower of Jesus Christ, and my faith influences the way I approach life, work, and relationships. I have a natural curiosity and a desire to keep learning, building, and improving in whatever season I’m in.</p>
+         </section>
+         
+         <!-- Photo gallery -->
+          <section id="photo-gallery">
+            <h1>Photo Gallery</h1>
+
+            <div class="gallery-window" id="galleryWindow">
+                <figure class="gallery-item">
+                    <img src="images/beck-boys-dirtbike.jpeg" alt="Dirt Bike with family">
+                    <figcaption>Dirtbikes With Family</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/beck-family-2.jpeg" alt="Dirt Bike with family">
+                    <figcaption>Dirtbikes With Family</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/beck-boys.jpeg" alt="Dirt Bike with family">
+                    <figcaption>Dirtbikes With Family</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/grill.jpeg" alt="Dirt Bike with family">
+                    <figcaption>Dirtbikes With Family</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/blackhawks.jpeg" alt="Dirt Bike with family">
+                    <figcaption>Dirtbikes With Family</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/beck-brothers.jpeg" alt="Dirt Bike with family">
+                    <figcaption>Dirtbikes With Family</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/jackson-lookout.jpeg" alt="Dirt Bike with family">
+                    <figcaption>Dirtbikes With Family</figcaption>
+                </figure>
+            </div>
+
+            <button id="nextThreeBtn" type="button">Next 3</button>
+
+
+
+
+            <!-- <div id="image-scroller">
+                <img src="images/beck-boys-dirtbike.jpeg" alt="image">
+                <h6>DirtBikes With Family</h6>
+                <img src="images/beck-family-2.jpeg" alt="image">
+                <h6>My Family</h6>
+                <img src="images/beck-boys.jpeg" alt="image">
+                <h6>The Beck Boys</h6>
+                <img src="images/grill.jpeg" alt="image">
+                <h6>Grilling With Pals</h6>
+                <img src="images/blackhawks.jpeg" alt="image">
+                <h6>Blackhawks With Uncle and Grandfather</h6>
+                <img src="images/beck-brothers.jpeg" alt="image">
+                <h6>The Beck Brothers</h6>
+                <img src="images/jackson-lookout.jpeg" alt="image"> 
+                <h6>Pinecreek Pass</h6>
+            </div>
+
+            <div id="scrollwheel">
+
+            </div> -->
+          </section>
     </main>
 
-    <!-- Page footer -->
     <footer>
-        &copy; 2026 Riley Beck
+        <p>&copy Riley Beck</p>
     </footer>
 
-    
+    <script>
+        const gallery = document.getElementById('galleryWindow');
+        const nextBtn = document.getElementById('nextThreeBtn');
+
+        function getStep() {
+            const item = gallery.querySelector('.gallery-item');
+            const gap = parseFloat(getComputedStyle(gallery).columnGap) || 0;
+            return (item.offsetWidth + gap) * 3;
+        }
+
+        nextBtn.addEventListener('click', () => {
+            const step = getStep();
+            const maxScroll = gallery.scrollWidth - gallery.clientWidth;
+            let target = gallery.scrollLeft + step;
+
+            if (target > maxScroll) target = 0; // loop
+            gallery.scrollTo({ left: target, behavior: 'smooth' });
+        });
+    </script>
+
 </body>
 </html>
